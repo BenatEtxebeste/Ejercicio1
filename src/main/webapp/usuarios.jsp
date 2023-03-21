@@ -29,7 +29,7 @@
 		    </tr>
 		    <% } %>
 		    <tr>
-		      <td><a href="InsertarUsuario?id=<% out.print(usuario.getId()); %>">Insertar</a> - </td>
+		      <td><a href="InsertarUsuario">Insertar</a> - </td>
 		    </tr>
 		</tbody>
 	</table>

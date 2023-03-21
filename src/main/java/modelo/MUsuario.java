@@ -47,4 +47,14 @@ public class MUsuario extends Conector{
 			e.printStackTrace();
 		}
 	}
+	
+	public void insertarUsuario() {
+		try {
+			PreparedStatement pst = con.prepareStatement("INSERT INTO usuarios (id, nombre) VALUES (?, ?)");
+			pst.setInt(1, 0);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }
